@@ -1,0 +1,29 @@
+UTC time: 2018-09-13 19:25:24
+Commit: unit
+Message: N/A
+Travis build: N/A
+
+Julia Version 1.0.0
+Commit 5d4eaca0c9 (2018-08-08 20:58 UTC)
+Platform Info:
+  OS: macOS (x86_64-apple-darwin14.5.0)
+  uname: Darwin 17.4.0 Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64 x86_64 i386
+  CPU: Intel(R) Core(TM) i7-6920HQ CPU @ 2.90GHz: 
+              speed         user         nice          sys         idle          irq
+       #1  2900 MHz     729973 s          0 s     366288 s    4860320 s          0 s
+       #2  2900 MHz      85539 s          0 s      40892 s    5827193 s          0 s
+       #3  2900 MHz     688590 s          0 s     236710 s    5028352 s          0 s
+       #4  2900 MHz      86626 s          0 s      42420 s    5824568 s          0 s
+       #5  2900 MHz     698271 s          0 s     240673 s    5014698 s          0 s
+       #6  2900 MHz      86022 s          0 s      42402 s    5825181 s          0 s
+       #7  2900 MHz     682607 s          0 s     234234 s    5036793 s          0 s
+       #8  2900 MHz      86303 s          0 s      42543 s    5824750 s          0 s
+       
+  Memory: 16.0 GB (197.52734375 MB free)
+  Uptime: 1.849116e6 sec
+  Load Avg:  3.1689453125  2.24560546875  2.1220703125
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.0 (ORCJIT, skylake)
+Environment:
+  JULIA_NUM_THREADS = 8
