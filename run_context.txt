@@ -1,4 +1,4 @@
-UTC time: 2018-09-13 22:24:14
+UTC time: 2018-09-13 22:47:23
 Commit: 81a1f7f12cc7e0643779151e2696055f6a386c96
 Message: Run all tests
 Travis build: 689
@@ -9,20 +9,20 @@ Platform Info:
   OS: Linux (x86_64-pc-linux-gnu)
       Ubuntu 14.04.5 LTS
   uname: Linux 4.4.0-101-generic #124~14.04.1-Ubuntu SMP Fri Nov 10 19:05:36 UTC 2017 x86_64 x86_64
-  CPU: Intel(R) Xeon(R) CPU @ 2.50GHz: 
+  CPU: Intel(R) Xeon(R) CPU @ 2.60GHz: 
               speed         user         nice          sys         idle          irq
-       #1  2500 MHz      68385 s          0 s      19172 s      48980 s          0 s
-       #2  2500 MHz      83216 s          0 s      17584 s      35976 s          0 s
+       #1  2600 MHz      73278 s          0 s      17003 s      35098 s          0 s
+       #2  2600 MHz      65477 s          0 s      20360 s      39230 s          0 s
        
-  Memory: 7.304546356201172 GB (4880.89453125 MB free)
-  Uptime: 1374.0 sec
-  Load Avg:  1.44775390625  1.46240234375  1.12890625
+  Memory: 7.304546356201172 GB (4962.58203125 MB free)
+  Uptime: 1260.0 sec
+  Load Avg:  1.49755859375  1.54736328125  1.1552734375
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-6.0.0 (ORCJIT, ivybridge)
+  LLVM: libLLVM-6.0.0 (ORCJIT, sandybridge)
 Environment:
   TRAVIS_JULIA_VERSION = 1.0
-  JULIA_LOAD_PATH = @:/tmp/tmpaUcKVm
+  JULIA_LOAD_PATH = @:/tmp/tmp3TeHhN
   MANPATH = /home/travis/.nvm/versions/node/v6.12.0/share/man:/home/travis/.kiex/elixirs/elixir-1.3.2/man:/home/travis/.rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/cmake-3.9.2/man:/usr/local/clang-5.0.0/share/man:/usr/local/share/man:/usr/share/man:/home/travis/.rvm/man
   NVM_CD_FLAGS = 
   GEM_HOME = /home/travis/.rvm/gems/ruby-2.4.1
@@ -36,4 +36,4 @@ Environment:
   HOME = /home/travis
   GEM_PATH = /home/travis/.rvm/gems/ruby-2.4.1:/home/travis/.rvm/gems/ruby-2.4.1@global
   GOPATH = /home/travis/gopath
-  JULIA_LOAD_PATH = @:/tmp/tmpaUcKVm
+  JULIA_LOAD_PATH = @:/tmp/tmp3TeHhN
