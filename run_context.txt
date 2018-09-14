@@ -1,7 +1,7 @@
-UTC time: 2018-09-14 09:54:54
-Commit: 3630cd1fadeb02a7d03f2afc38a826280b82edd4
-Message: Report fewer environment variables, and add onlybench macro
-Travis build: 695
+UTC time: 2018-09-14 10:22:45
+Commit: 4d11710efb249c56702a430e6fda0292015a1153
+Message: Prioritize time difference
+Travis build: 699
 
 Julia Version 1.0.0
 Commit 5d4eaca0c9 (2018-08-08 20:58 UTC)
@@ -9,17 +9,17 @@ Platform Info:
   OS: Linux (x86_64-pc-linux-gnu)
       Ubuntu 14.04.5 LTS
   uname: Linux 4.4.0-101-generic #124~14.04.1-Ubuntu SMP Fri Nov 10 19:05:36 UTC 2017 x86_64 x86_64
-  CPU: Intel(R) Xeon(R) CPU @ 2.30GHz: 
+  CPU: Intel(R) Xeon(R) CPU @ 2.60GHz: 
               speed         user         nice          sys         idle          irq
-       #1  2300 MHz      49616 s          0 s      19641 s      52498 s          0 s
-       #2  2300 MHz      81481 s          0 s      16352 s      24440 s          0 s
+       #1  2600 MHz      69746 s          0 s      19924 s      37484 s          0 s
+       #2  2600 MHz      72681 s          0 s      17874 s      37098 s          0 s
        
-  Memory: 7.304546356201172 GB (4939.46875 MB free)
-  Uptime: 1227.0 sec
-  Load Avg:  1.48681640625  1.46240234375  1.0791015625
+  Memory: 7.304546356201172 GB (4886.9453125 MB free)
+  Uptime: 1281.0 sec
+  Load Avg:  1.55322265625  1.56884765625  1.17919921875
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-6.0.0 (ORCJIT, haswell)
+  LLVM: libLLVM-6.0.0 (ORCJIT, sandybridge)
 Environment:
   TRAVIS_JULIA_VERSION = 1.0
-  JULIA_LOAD_PATH = @:/tmp/tmpTb8S5B
+  JULIA_LOAD_PATH = @:/tmp/tmpYlcrKT
