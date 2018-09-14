@@ -1,4 +1,4 @@
-UTC time: 2018-09-14 10:45:15
+UTC time: 2018-09-14 11:09:51
 Commit: 4d11710efb249c56702a430e6fda0292015a1153
 Message: Prioritize time difference
 Travis build: 699
@@ -9,17 +9,17 @@ Platform Info:
   OS: Linux (x86_64-pc-linux-gnu)
       Ubuntu 14.04.5 LTS
   uname: Linux 4.4.0-101-generic #124~14.04.1-Ubuntu SMP Fri Nov 10 19:05:36 UTC 2017 x86_64 x86_64
-  CPU: Intel(R) Xeon(R) CPU @ 2.30GHz: 
+  CPU: Intel(R) Xeon(R) CPU @ 2.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  2300 MHz      75173 s          0 s      17853 s      32696 s          0 s
-       #2  2300 MHz      58708 s          0 s      18152 s      48759 s          0 s
+       #1  2500 MHz      61104 s          0 s      20771 s      47444 s          0 s
+       #2  2500 MHz      84762 s          0 s      15640 s      29393 s          0 s
        
-  Memory: 7.304546356201172 GB (4905.6171875 MB free)
-  Uptime: 1264.0 sec
-  Load Avg:  1.55126953125  1.47998046875  1.1103515625
+  Memory: 7.304546356201172 GB (4936.01953125 MB free)
+  Uptime: 1300.0 sec
+  Load Avg:  1.66259765625  1.64599609375  1.21728515625
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-6.0.0 (ORCJIT, haswell)
+  LLVM: libLLVM-6.0.0 (ORCJIT, ivybridge)
 Environment:
   TRAVIS_JULIA_VERSION = 1.0
-  JULIA_LOAD_PATH = @:/tmp/tmpjPGh2v
+  JULIA_LOAD_PATH = @:/tmp/tmpaDKkyM
