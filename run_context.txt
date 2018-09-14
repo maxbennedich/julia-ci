@@ -1,7 +1,7 @@
-UTC time: 2018-09-13 22:47:23
-Commit: 81a1f7f12cc7e0643779151e2696055f6a386c96
-Message: Run all tests
-Travis build: 689
+UTC time: 2018-09-14 09:54:54
+Commit: 3630cd1fadeb02a7d03f2afc38a826280b82edd4
+Message: Report fewer environment variables, and add onlybench macro
+Travis build: 695
 
 Julia Version 1.0.0
 Commit 5d4eaca0c9 (2018-08-08 20:58 UTC)
@@ -9,31 +9,17 @@ Platform Info:
   OS: Linux (x86_64-pc-linux-gnu)
       Ubuntu 14.04.5 LTS
   uname: Linux 4.4.0-101-generic #124~14.04.1-Ubuntu SMP Fri Nov 10 19:05:36 UTC 2017 x86_64 x86_64
-  CPU: Intel(R) Xeon(R) CPU @ 2.60GHz: 
+  CPU: Intel(R) Xeon(R) CPU @ 2.30GHz: 
               speed         user         nice          sys         idle          irq
-       #1  2600 MHz      73278 s          0 s      17003 s      35098 s          0 s
-       #2  2600 MHz      65477 s          0 s      20360 s      39230 s          0 s
+       #1  2300 MHz      49616 s          0 s      19641 s      52498 s          0 s
+       #2  2300 MHz      81481 s          0 s      16352 s      24440 s          0 s
        
-  Memory: 7.304546356201172 GB (4962.58203125 MB free)
-  Uptime: 1260.0 sec
-  Load Avg:  1.49755859375  1.54736328125  1.1552734375
+  Memory: 7.304546356201172 GB (4939.46875 MB free)
+  Uptime: 1227.0 sec
+  Load Avg:  1.48681640625  1.46240234375  1.0791015625
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-6.0.0 (ORCJIT, sandybridge)
+  LLVM: libLLVM-6.0.0 (ORCJIT, haswell)
 Environment:
   TRAVIS_JULIA_VERSION = 1.0
-  JULIA_LOAD_PATH = @:/tmp/tmp3TeHhN
-  MANPATH = /home/travis/.nvm/versions/node/v6.12.0/share/man:/home/travis/.kiex/elixirs/elixir-1.3.2/man:/home/travis/.rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/cmake-3.9.2/man:/usr/local/clang-5.0.0/share/man:/usr/local/share/man:/usr/share/man:/home/travis/.rvm/man
-  NVM_CD_FLAGS = 
-  GEM_HOME = /home/travis/.rvm/gems/ruby-2.4.1
-  TERM = xterm
-  MY_RUBY_HOME = /home/travis/.rvm/rubies/ruby-2.4.1
-  PYTHON_CFLAGS = -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security
-  PATH = /home/travis/bin:/home/travis/.local/bin:/opt/pyenv/shims:/home/travis/.phpenv/shims:/home/travis/perl5/perlbrew/bin:/home/travis/.nvm/versions/node/v6.12.0/bin:/home/travis/.kiex/elixirs/elixir-1.3.2/bin:/home/travis/.kiex/bin:/home/travis/.rvm/gems/ruby-2.4.1/bin:/home/travis/.rvm/gems/ruby-2.4.1@global/bin:/home/travis/.rvm/rubies/ruby-2.4.1/bin:/home/travis/gopath/bin:/home/travis/.gimme/versions/go1.7.4.linux.amd64/bin:/usr/local/phantomjs/bin:/usr/local/phantomjs:/usr/local/neo4j-3.2.7/bin:/usr/local/cmake-3.9.2/bin:/usr/local/clang-5.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ghc/bin:/home/travis/.rvm/bin:/home/travis/.phpenv/bin:/opt/pyenv/bin:/home/travis/.yarn/bin:/home/travis/julia/bin
-  JAVA_HOME = /usr/lib/jvm/java-8-oracle
-  PERLBREW_HOME = /home/travis/.perlbrew
-  TRAVIS_HOME = /home/travis
-  HOME = /home/travis
-  GEM_PATH = /home/travis/.rvm/gems/ruby-2.4.1:/home/travis/.rvm/gems/ruby-2.4.1@global
-  GOPATH = /home/travis/gopath
-  JULIA_LOAD_PATH = @:/tmp/tmp3TeHhN
+  JULIA_LOAD_PATH = @:/tmp/tmpTb8S5B
